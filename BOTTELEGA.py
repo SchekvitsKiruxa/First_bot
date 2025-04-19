@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-Bz = telebot.TeleBot('7733250205:AAEsHYmuhNp3K3EvmMjDKr7OliqO34ElLeM')
+Bz = telebot.TeleBot('')
 def create_keyboard():#Типы блюд
     keyboard = types.ReplyKeyboardMarkup(one_time_keyboard=True)
     button1 = types.KeyboardButton("Закуска")
